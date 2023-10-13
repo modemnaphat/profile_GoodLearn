@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #FBFBFB;
+  background-image: url("src/assets/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: #FBFBFB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6564CA;
+  transition: .5s;
+}
+
+button {
+  background-color: #6564CA;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fbfbfb;
+  padding: 5px 75px;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FBFBFB;
+  color: #1A1920;
+  transition: .5s;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/*icon-style */
+
+/* */
+
+#app {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #FBFBFB;
+    background-color: #1A1920;
+  }
+}
+
